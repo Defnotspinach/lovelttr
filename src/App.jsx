@@ -11,7 +11,7 @@ function App() {
     <div className="min-h-screen bg-[#F6F4E8] text-[#333]">
       {/* Background music - loops continuously */}
       <audio id="bg-music" loop preload="auto">
-        <source src="/music/Green Day - Last Night On Earth - [HQ] [-7vjJYco7hM].mp3" type="audio/mpeg" />
+        <source src="/music/song.mp3" type="audio/mpeg" />
       </audio>
 
       {screen === 'SPLASH' && (
